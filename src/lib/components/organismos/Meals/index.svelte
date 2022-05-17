@@ -2,7 +2,7 @@
 
     import Card from '../../atoms/card/card.svelte';
     import Alert from '../../moleculas/alert.svelte';
-   import { onMount } from 'svelte';
+    import { onMount } from 'svelte';
     import * as api from '$lib/api';
     
     var collectionMeals=[];
