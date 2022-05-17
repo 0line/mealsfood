@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sveltkit
+    env: node
+    buildCommand: npm install && run build
+    starCommand: node build/index.js
+    
