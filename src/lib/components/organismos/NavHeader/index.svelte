@@ -133,7 +133,7 @@
           align-items: center;
           justify-content: space-between;
           transition: .5s;
-          color:white;
+          color:rgb(230, 231, 231);
           &:hover{
             transform: scale(1.1);
           }
@@ -398,11 +398,10 @@
 		width: 100%;
 		opacity: 0;
 		transform: translateY(15px);
-    color:white !important;
 		>a {
 			line-height: 1;
 			padding: 1.6rem 2rem;
-      color:white !important;
+      color: #000;
 			>i {
 				font-size: 1.1rem;
 				transform: rotate(-90deg);
