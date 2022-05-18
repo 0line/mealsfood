@@ -5,7 +5,7 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 
-    import Orders from '$lib/components/organismos/Orders/history.svelte';
+    import Orders from '../lib/components/organismos/Orders/history.svelte';
 
     
 </script>

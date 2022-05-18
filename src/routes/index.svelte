@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
 	export const prerender = true;
-	import Orders from '$lib/components/organismos/Orders/index.svelte';
+	import Orders from '../lib/components/organismos/Orders/createorder.svelte';
 </script>
 
 <script lang="ts">

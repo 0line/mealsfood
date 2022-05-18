@@ -4,7 +4,7 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 
-    import Meals from '$lib/components/organismos/meals/index.svelte';
+    import Meals from '$lib/components/organismos/Meals/foods.svelte';
     
 </script>
 <section class="overlay bg-center bg-no-repeat bg-cover h-screen w-full overflow-hidden relative" style="background-image: url(/bgingredientes.jpg);">

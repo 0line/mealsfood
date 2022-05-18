@@ -4,7 +4,7 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 
-    import HIngredients from '$lib/components/organismos/Ingredients/ingredientshistory.svelte';
+    import HIngredients from '../lib/components/organismos/Ingredients/ingredientshistory.svelte';
     
 </script>
 <section class="overlay bg-center bg-no-repeat bg-cover h-screen w-full overflow-hidden relative" style="background-image: url(/bgingredientes.jpg);">
