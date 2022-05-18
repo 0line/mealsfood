@@ -1,7 +1,7 @@
 
 
 export async function get(endpoint:string){
-    return await fetch("http://3.83.8.147/api/v1"+endpoint)
+    return await fetch("https://mealsfoodapi-0line.vercel.app/"+endpoint)
     .then(function (resultado){
        return resultado.json();           
     })
@@ -11,7 +11,7 @@ export async function get(endpoint:string){
 }
 
 export async function post(endpoint:string, data:any){
-    return await fetch("http://3.83.8.147/api/v1"+endpoint,{
+    return await fetch("https://mealsfoodapi-0line.vercel.app/"+endpoint,{
         method: 'POST',
         mode: 'cors', // no-cors, *cors, same-origin,
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
