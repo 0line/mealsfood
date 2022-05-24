@@ -9,19 +9,18 @@
      *Ordenar los servicios
      * 
      */   
-    let meals = [];
+    let meals:any[] = [];
     let load=true;
     let error=false;
     onMount(async () => {
         api.get('/order').then(data=>{
             if(typeof data.success !== 'undefined'
             && data.success!=false){
-                //meals=data.data;
                 var i=0;
-                if(data.data.length>0){ 
+                if(Object.keys(data.data).length>0){ 
                     Object.entries(data.data).forEach(([key, value]) => {
-                    meals[i]={'orden':key,'platillos':value};
-                    i++;
+                        meals[i]={'orden':key,'platillos':value};
+                        i++;
                     });
                 }
             }
