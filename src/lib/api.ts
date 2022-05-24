@@ -1,7 +1,7 @@
 
 
 export async function get(endpoint:string){
-    return await fetch("https://mealsfoodapi-0line.vercel.app"+endpoint)
+    return await fetch("https://apilumen.onrender.com/api/v1"+endpoint)
     .then(function (resultado){
        return resultado.json();           
     })
@@ -11,7 +11,7 @@ export async function get(endpoint:string){
 }
 
 export async function post(endpoint:string, data:any){
-    return await fetch("https://mealsfoodapi-0line.vercel.app"+endpoint,{
+    return await fetch("https://apilumen.onrender.com/api/v1"+endpoint,{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
